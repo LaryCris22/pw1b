@@ -1,37 +1,39 @@
-div{
-    padding-top:10px;
-    padding-bottom:20px;
-
+*{margin:0; padding: 0;}
+div {
+    padding-top: 15px;
+    padding-bottom: 20px;
 }
+
 .container{
-    background-color: hsl(219, 84%, 48%);
-    width:250px;
+    
+    width: 250px;
 }
 
 .imagem-card{
-    width:250px;
+    width: 250px;
 }
 
-.descrição-card{
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight:bold;
-    color:#90d314
-}
-
-.preço-card{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.descricao-card{
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: rgb(13, 31, 199);
-    font: size 18px;
-}
-.pagamento-card{
-    font-size:10px;
-    color: aquamarine;
-
+    color: #333333;
 }
 
-.botão-card{
-    background-color: #90d314;
-    color: black;
+.preco-card{
+    color:#ff6500;
+    font-weight: bold;
+    font-family: Impact;
+    font-size:18px;
+}
+.formaPagamento-card{
+    font-size: 10px;
+    color:#666666;
+}
+
+.botao-card{
+    background-color: #ff6500;
+    color: #ffffff;
+    width: 100%;
+    height: 40px;
 
 }
