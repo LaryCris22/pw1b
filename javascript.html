@@ -1,0 +1,36 @@
+<script>
+    function MeuAlerta(texto)
+    {
+      alert(texto)
+    }
+    function somar(numero1,numero2)
+    {
+      var soma = Number(numero1) + Number(numero2)
+      return soma
+    }
+    function CalculeASoma()
+    {
+      MeuAlerta( somar( prompt("Digite um numero") ,prompt("Digite outro numero")) )
+    }
+    
+    
+    /*
+    var num1 = Number(prompt("Digite um numero"))
+    var num2 = Number(prompt("Digite outro numero"))
+    var soma = num1+num2
+    MeuAlerta( soma )
+    */
+    
+    
+    /*
+    Faça uma função que 
+    peça o nome do usuario
+    e imprima no alert esse nome
+    */
+    
+    
+    </script>
+    
+    <button onclick="CalculeASoma()">
+      Somar
+    </button>
