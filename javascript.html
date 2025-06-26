@@ -1,36 +1,96 @@
 <script>
-    function MeuAlerta(texto)
-    {
+  //var numero = prompt('Digite um número')
+ // alert(numero)
+  //var numero = 10
+  //var texto = '10'+numero+'10'
+  //alert("resultado: "+texto)
+  //var numero2 = 100
+  //var multiplicacao = numero * numero2
+  //alert(multiplicacao)
+  //alert("resultado="+(10+multiplicacao+20+numero+numero2))
+  /*
+       faça um programa que peça
+       para o usuário digitar dois numeros 
+       e exiba o alerta com a soma deles
+  */
+  //var numero1 = Number (prompt("Digite um número: "))
+  //var numero2 = Number (prompt("Digite outro número: "))
+  //alert( "O resultado é "+(numero1+numero2))
+
+  /*
+       faça um programa que leia
+       o nome do usuário 
+       a idade e verifique
+       se ele pode dirigir e votar
+  */
+ /*var nome = prompt("Digite seu nome: ")
+ var idade = Number (prompt("Digite dua idade"))
+  if(idade>18)
+  {
+      alert("O "+nome+" pode votar e dirigir")
+  }
+  else if(idade >=16)
+  {
+      alert("O "+nome+" pode votar")
+  }
+  else
+  {
+      alert("O "+nome+" não pode votar e dirigir")
+  }*/
+  /*var num = Number( prompt("digite um número: "))
+  if(num<0)
+  {
+      alert("o número "+num+" é negativo")
+  }
+  else if(num==0)
+  {
+      alert("o número "+num+" é zero")
+  }
+  else if(num>0)
+  {
+      alert("o número "+num+" é positivo")
+  }*/
+  /*for(var i=0; i<=512; i=i+2)
+  {
+      if(i%2==0)
+         document.write(i+"<br>")
+  }*/
+  /*var tabuada = Number(prompt("digite o numero para ver a tabuada: "))
+      for(var i=0; i<=10; i++)
+          {
+          document.write("<H1>"+i+" x "+tabuada+" = "+(tabuada*i)+"<H1>")
+          }*/
+  function meualerta(texto,numero)
+  {
       alert(texto)
-    }
-    function somar(numero1,numero2)
-    {
-      var soma = Number(numero1) + Number(numero2)
-      return soma
-    }
-    function CalculeASoma()
-    {
-      MeuAlerta( somar( prompt("Digite um numero") ,prompt("Digite outro numero")) )
-    }
-    
-    
-    /*
-    var num1 = Number(prompt("Digite um numero"))
-    var num2 = Number(prompt("Digite outro numero"))
-    var soma = num1+num2
-    MeuAlerta( soma )
-    */
-    
-    
-    /*
-    Faça uma função que 
-    peça o nome do usuario
-    e imprima no alert esse nome
-    */
-    
-    
-    </script>
-    
-    <button onclick="CalculeASoma()">
-      Somar
-    </button>
+  }
+  function somar(numero1,numero2)
+  {
+      var soma = Number(numero1)+Number(numero2)
+     return(soma)
+  }
+  function CalculeASoma()
+   {
+   meualerta(somar(prompt("digite um numero"),prompt("digite outro numero")))
+   }
+      /*var resultado = somar(50,50)
+   meualerta(resultado)
+      meualerta(somar("10","11"))
+      alert(somar(20,30))
+   /*var num1 = Number(prompt("digite um numero"))
+      var num2 = Number(prompt("digite outro numero"))
+      meualerta(num1+num2)
+  /*faça uma função que
+  peça o mone do usuario
+  e imprima seu nome 
+   */
+  function nome()
+   {
+  var nome = prompt("digite seu nome: ")
+  alert("seu nome é "+nome)
+  }
+   //nome()
+  </script>
+  <button onclick="CalculeASoma()">
+  clique aqui
+  </button>
