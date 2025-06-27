@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imagens/icone.png">
+    <link rel="stylesheet" href="pokedex.css"/>
+    <script defer src="./js/script.js"></script>
+    <title>Pokédex</title>
+</head>
+<body>
+
+  <main id="principal">
+        <img src="#" alt="pokemon" class="pokemon__image">
+
+    <h1 class="pokemon__data">
+      <span class="pokemon__number"></span> -
+      <span class="pokemon__name"></span> - <br>
+      <span class="pokemon__tiponome"></span><br>
+    </h1>
+
+    <form class="form">
+      <input
+        type="search"
+        class="input__search"
+        placeholder="&#10022;Encontre um pokémon &#128270;"
+        required
+      />
+    </form>
+
+    <div class="buttons">
+      <button class="button btn-prev">&lt; Anterior</button>
+      <button class="shiny"></button>
+      <button class="button btn-next">Próximo &gt;</button>
+    </div>
+    <img src="./imagens/rotomdex.jpg" alt="pokedex" class="pokedex">
+  </main>
+
+</body>
+</html>
