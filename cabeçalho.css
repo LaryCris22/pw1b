@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+}
+
+.Cabeça{
+    display: flex;
+    background-color: rgb(179, 20, 20);
+    color: #ffffff;
+    justify-content: center;
+}
+
+a{
+ margin: 20px;
+ font-size: 12px;
+}
+
+.cabeçalho-image{
+    display: flex;
+    justify-content: left;
+    margin-left: 190px;
+    margin-bottom: 25px;
+}
+
