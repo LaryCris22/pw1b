@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>1º Ano - Técnico em Desenvolvimento de Sistemas | ETEC Bauru</title>
+    
+</head>
+<body>
+    
+    <header>
+        <h1>Bem-vindos à Página do 1º Ano de DS</h1>
+        <h2>Etec Rodrigues de Abreu - Bauru/SP</h2>
+        <h1> Essa pagina pertence a:  </h1>
+    </header>
+     
+    <hr>
+
+    <div>
+        <h4>Sobre o Curso Técnico</h4>
+        <p>O curso de <strong>Desenvolvimento de Sistemas</strong> prepara os alunos para os desafios do mercado de tecnologia. Localizada em Bauru, nossa ETEC é referência no ensino técnico gratuito de qualidade.</p>
+        
+              <p>Nesta página, os alunos do primeiro ano exploram as bases da web: HTML5 puro, sem nenhuma folha de estilo externa ou interna.</p>
+    </div>
+
+    <div>
+        <h5>Galeria e Recursos</h5>
+        <p>Veja uma representação da nossa rotina de estudos:</p>
+        <img src="laboratorio.png" alt="Exemplo de laboratório de informática">
+        
+        <p>Vídeo Motivacional sobre Tecnologia:</p>
+        <video width="320" height="240" controls>
+            <source src="movie.mp4" type="video/mp4">
+            Seu navegador não suporta a tag de vídeo.
+        </video>
+    </div>
+
+    <hr>
+
+    <div>
+        <h6>Grade Curricular do 1º Módulo</h6>
+        <ul>
+            <li>Lógica de Programação</li>
+            <li>Análise e Projeto de Sistemas
+                <ul>
+                    <li>Diagramas de Caso de Uso</li>
+                    <li>Requisitos Funcionais</li>
+                </ul>
+            </li>
+            <li>Fundamentos da Informática</li>
+            <li>Design Digital</li>
+        </ul>
+
+        <h6>Passos para o Sucesso no Curso</h6>
+        <ol>
+            <li>Estudar lógica diariamente</li>
+            <li>Praticar HTML e CSS</li>
+            <li>Participar dos projetos em grupo</li>
+            <li>Nunca parar de pesquisar no Stack Overflow</li>
+        </ol>
+    </div>
+
+    <hr>
+
+    <div>
+        <h4>Horário de Aulas (Exemplo)</h4>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Período</th>
+                    <th>Segunda</th>
+                    <th>Terça</th>
+                    <th>Quarta</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1º Horário</td>
+                    <td>Lógica</td>
+                    <td>Banco de Dados</td>
+                    <td>Web I</td>
+                </tr>
+                <tr>
+                    <td>2º Horário</td>
+                    <td>Lógica</td>
+                    <td>Hardware</td>
+                    <td>Web I</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <hr>
+
+    <div>
+        <h2>Área de Cadastro do Aluno</h2>
+        <form action="#" method="post">
+            <p>
+                <label for="nome">Nome Completo:</label><br>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+            </p>
+
+            <p>
+                <label for="senha">Senha de Acesso:</label><br>
+                <input type="password" id="senha" name="senha">
+            </p>
+
+            <p>
+                <label for="nascimento">Data de Nascimento:</label><br>
+                <input type="date" id="nascimento" name="nascimento">
+            </p>
+
+            <p>
+                <label for="cor">Escolha sua cor favorita (para o futuro CSS):</label><br>
+                <input type="color" id="cor" name="cor">
+            </p>
+
+            <p>
+                <label>Gênero:</label><br>
+                <input type="radio" id="masc" name="genero" value="m">
+                <label for="masc">Masculino</label>
+                <input type="radio" id="fem" name="genero" value="f">
+                <label for="fem">Feminino</label>
+            </p>
+
+            <p>
+                <label>Linguagens de interesse:</label><br>
+                <input type="checkbox" id="html" name="interesse" value="html">
+                <label for="html">HTML5</label>
+                <input type="checkbox" id="js" name="interesse" value="js">
+                <label for="js">JavaScript</label>
+                <input type="checkbox" id="python" name="interesse" value="python">
+                <label for="python">Python</label>
+            </p>
+
+            <p>
+                <label for="biografia">Fale um pouco sobre você:</label><br>
+                <textarea id="biografia" name="biografia" rows="4" cols="30"></textarea>
+            </p>
+
+            <p>
+                <label for="nivel">Nível de conhecimento em Tech (0 a 10):</label><br>
+                <input type="range" id="nivel" name="nivel" min="0" max="10">
+            </p>
+
+            <p>
+                <label for="foto">Envie sua foto de perfil:</label><br>
+                <input type="file" id="foto" name="foto">
+            </p>
+
+            <button type="submit">Enviar Inscrição</button>
+            <button type="reset">Limpar Tudo</button>
+        </form>
+    </div>
+
+    <hr>
+
+    <footer>
+        <p>Direitos Reservados - Turma 1º DS - ETEC Bauru - 2024</p>
+    </footer>
+
+</body>
+</html>
